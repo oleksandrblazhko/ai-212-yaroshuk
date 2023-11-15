@@ -1,11 +1,9 @@
 ### Опис основних нефункціональних вимог, не пов’язаних з інтерфейсом користувача
 
-|FR|NFR|Тип NFR|Опис NFR|
-|:-----:|:-----:|:-----|:-----|
-|FR1.1|NFR1.1|Network|Наявність WI-FI чи іншого інтернет зв'язку|
-|FR1.2|NFR1.3|Network|Наявність WI-FI чи іншого інтернет зв'язку|
-|FR1.3|NFR1.4|Human Factors Requirements|Дія з боку людини|
-|FR2.1|NFR2.2|Network|Наявність WI-FI чи іншого інтернет зв'язку|
-|FR2.2|NFR2.3|Network|Наявність WI-FI чи іншого інтернет зв'язку|
-|FR2.3|NFR2.4|Network|Наявність WI-FI чи іншого інтернет зв'язку|
-|FR2.3|NFR2.5|Human Factors Requirements|Дія з боку людини|
+|NFR|Тип NFR|Опис NFR|
+|:-----:|:-----|:-----|
+|NFR1.1|Network|Наявність WI-FI чи іншого інтернет зв'язку|
+|NFR1.4|Time Performance|Не більше 2 секунд на відповідь|
+|NFR1.5|Software Interface|min: Chrome ver80,Firefox ver75, Safari ver13, IOS ver12, Windows 10|
+|NFR2.3|Hardware|Смартфон Apple, Персональний комп'ютер, RAM 1GB|
+|NFR2.4|Human Factors Requirements|Дія з боку людини|
