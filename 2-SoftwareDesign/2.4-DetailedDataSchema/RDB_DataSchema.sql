@@ -4,6 +4,7 @@ CREATE TABLE usermod(
 	email VARCHAR(255) NOT NULL,
 	password VARCHAR(30) NOT NULL,
 	date_created DATE NOT NULL
+	CONSTRAINT email_validation CHECK (email REGEXP '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$')
 );
 
 CREATE TABLE art_piece(
