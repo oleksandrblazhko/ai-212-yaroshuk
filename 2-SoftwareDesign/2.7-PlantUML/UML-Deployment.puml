@@ -1,0 +1,22 @@
+@startuml
+!theme toy
+
+title Software Architect Concept (PL level)
+
+skinparam componentStyle uml1
+
+node "<<Персональний комп'ютер>>" as computer {
+	node "<<OS Windows>>" {
+	  node "<<Веб-браузер>>" {
+		  component [ *.js]
+	  }
+	}
+}
+
+interface KeyBoard 
+interface ComputerMouse
+
+KeyBoard - computer
+ComputerMouse - computer
+
+@enduml

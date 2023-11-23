@@ -1,0 +1,39 @@
+@startuml
+
+title Data Model
+left to right direction
+hide circle
+
+entity "usermod" as t01 {
+    (PK) id
+    --
+    login
+    email
+    password 
+    date_created 
+}
+
+entity "post" as t02 {
+    (PK) id
+    --
+    headline 
+    main_text 
+    (FK) creator 
+    picture 
+    date_created 
+}
+
+entity "comment" as t03 {
+    (PK) id
+    --
+    (FK) thread 
+    (FK) creator 
+    date_created 
+}
+
+t01 --{ t02
+t01 --{ t03
+t02 --{ t03 
+
+
+@enduml

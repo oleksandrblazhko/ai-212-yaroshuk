@@ -1,0 +1,18 @@
+@startuml
+
+title Example of Activity Diagram 
+
+start
+
+:The program analyzes user data; 
+note right: Using RegExp validator
+
+if (Is Data Correct?) then (yes)
+  :Thank you!;
+else (no)
+  :Your data is incorrect!;
+endif
+
+stop
+
+@enduml

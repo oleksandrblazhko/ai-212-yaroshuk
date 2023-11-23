@@ -1,0 +1,17 @@
+@startuml
+
+title Example of Activity Diagram 
+
+start
+
+:User decides to write a post; 
+
+if (Is Data Correct?) then (yes)
+  :Post is created and shown on forum;
+else (no)
+  :Your data is incorrect!;
+endif
+
+stop
+
+@enduml
