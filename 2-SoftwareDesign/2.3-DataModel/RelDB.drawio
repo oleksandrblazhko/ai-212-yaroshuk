@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-11-20T15:20:54.465Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0" etag="VHzrUBFg_TiTL6THncN-" version="22.1.3" type="device" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-11-22T14:10:12.980Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0" etag="YiP5yL8z9NZFzepQ9h9K" version="22.1.3" type="device" pages="3">
   <diagram id="mCyr1kptdM3YggUfpTlr" name="Варіант (а)">
     <mxGraphModel dx="1393" dy="1756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NR5pUmCvTBosV-Qdy8rM-28" value="User/Moderator" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+        <mxCell id="NR5pUmCvTBosV-Qdy8rM-28" value="Usermod" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="-785" width="180" height="180" as="geometry" />
         </mxCell>
         <mxCell id="NR5pUmCvTBosV-Qdy8rM-29" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NR5pUmCvTBosV-Qdy8rM-28" vertex="1">
