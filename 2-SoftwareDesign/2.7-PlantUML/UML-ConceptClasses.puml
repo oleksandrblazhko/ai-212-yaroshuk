@@ -1,0 +1,32 @@
+@startuml
+!theme toy
+hide circle
+title UML-ConceptClasses
+
+Class Usermod{
+    Login
+    Password
+    Email
+    Date_created
+}
+
+Class "Post"{
+    Headline
+    Text
+    Creator
+    Picture
+    Date_created
+}
+
+Class "Comment"{
+    Text
+    Creator
+    Thread
+    Date_created
+}
+
+Usermod"1" --> "*""Post": Creates/deletes
+Usermod"1" --> "*""Comment": Creates/deletes
+Post"1" --> "*""Comment": includes
+
+@enduml
